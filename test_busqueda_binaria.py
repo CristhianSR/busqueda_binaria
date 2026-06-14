@@ -19,3 +19,9 @@ def test_ultimo_elemento():
 def test_lista_vacia():
     lista = []
     assert busqueda_binaria(lista, 10) == -1
+
+test_elemento_encontrado()
+test_elemento_no_encontrado()
+test_primer_elemento()
+test_ultimo_elemento()
+test_lista_vacia()
